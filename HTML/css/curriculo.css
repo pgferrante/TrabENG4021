@@ -1,0 +1,29 @@
+body {
+background-color: #000000;
+color: #FFFFFF;
+font-family: 'Orbitron';
+}
+nav {
+background-color: blue;
+}
+.navegacao {
+list-style-type: none;
+}
+.navegacao a {
+color: yellow;
+text-decoration: none;
+}
+h1, h2, h3 {
+color: yellow;
+margin-left: 10px;
+}
+p {
+margin-left: 10px;
+}
+footer {
+color: orange;
+}
+#sumario {
+color: red;
+text-align: left;
+}
