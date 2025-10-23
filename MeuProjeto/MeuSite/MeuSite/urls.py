@@ -23,4 +23,6 @@ urlpatterns = [
     path("admin/", admin.site.urls),
 
     path('', views.home, name='home'),
+
+    path('curriculo/', include('curriculo.urls')),
 ]
