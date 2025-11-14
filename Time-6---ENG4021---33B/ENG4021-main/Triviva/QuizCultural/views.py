@@ -6,7 +6,7 @@ from .models import Pergunta
 
 def home(request):
     """Renderiza a página inicial do Quiz Cultural."""
-    return render(request, 'quizcultural/home.html')
+    return render(request, "quizcultural/htmlsPaginas/main.html")
 
 
 @login_required

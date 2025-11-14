@@ -1,0 +1,114 @@
+/* Reset simples */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #e2edf2; /* cor padrão da página inicial */
+    padding: 20px;
+}
+
+/* Botão de login */
+.login-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #4b2e83;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+
+/* Títulos */
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+/* Caixa “Selecione o modo de jogo” */
+.mode-box {
+    background: #4b2e83;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 15px;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.mode-icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.mode-icons img {
+    width: 75px;
+    height: 75px;
+}
+
+/* Imagem principal de cada modo */
+.big-icon {
+    width: 380px;
+    height: 380px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Botão JOGAR */
+.play-btn {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 18px 40px;
+    border-radius: 15px;
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Ajuste de layout das páginas internas */
+.page-container {
+    display: flex;
+    width: 100%;
+    max-width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.left-side {
+    text-align: left;
+}
+
+.left-side h1 {
+    font-size: 70px;
+}
+
+.left-side .subtitle {
+    margin-top: 10px;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

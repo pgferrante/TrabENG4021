@@ -4,6 +4,7 @@ from . import views
 app_name = 'quizcultural'
 
 urlpatterns = [
+    path("", views.main, name="main"),
     # Página inicial do quiz cultural
     path('', views.home, name='home'),
     # Lista todas as perguntas cadastradas
