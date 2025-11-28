@@ -128,3 +128,9 @@ CSRF_TRUSTED_ORIGINS = [
     'https://localhost:8000', 
     'http://localhost:8000',
 ]
+
+LOGOUT_REDIRECT_URL = '/accounts/login/'  # Para onde vai após logout
+LOGIN_URL = '/accounts/login/'       # URL de login (padrão)
+# ATENÇÃO!!! Troque o valor da variável abaixo para que ela seja uma das rotas
+# válidas no seu arquivo MeuSite/curriculo/urls.py
+LOGIN_REDIRECT_URL = '/'   # Para onde vai após login

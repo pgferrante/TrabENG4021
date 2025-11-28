@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Carros</title>
     <link rel="stylesheet" href="{% static 'CarsApp/css/estilo.css' %}">
+    <a href="{% url 'login' %}">Login</a>
+    <form method='POST' action="{% url 'logout' %}">{% csrf_token %}<button type='submit'>Logout</button></form>
 </head>
 <body>
 
